@@ -5,6 +5,7 @@ window.addEventListener("load", function () {
             slidesToShow: 2,
             slidesToScroll: 2,
             arrows: false,
+			autoplay:true,
             dots: true,
             responsive: [
                 {
