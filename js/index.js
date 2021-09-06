@@ -1,11 +1,13 @@
 window.addEventListener("load", function () {
     $(document).ready(function () {
+        $(".preload").fadeOut(1000);
+
         $(".testimonial__slider").slick({
             infinite: true,
             slidesToShow: 2,
             slidesToScroll: 2,
             arrows: false,
-			autoplay:true,
+            autoplay: true,
             dots: true,
             responsive: [
                 {
